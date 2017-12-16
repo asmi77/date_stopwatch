@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Display date and stopwatch</title>
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <header class="top">
+      <div id="date"></div>
+      <div id="time"></div>
+    </header>
+
+    <section class="content">
+      <div class="stopwatch">
+        <div id="timer"></div>
+
+        <div class="stopwatch-buttons">
+          <button onclick="startTimer()">Start</button>
+          <button onclick="stopTimer()">Stop</button>
+          <button onclick="resetTimer()">Reset</button>
+          <button onclick="lap()">Lap</button>
+        </div>
+
+        <div class="laps-list">
+          <ul id="laps"></ul>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="myDate.js"></script>
+    <script type="text/javascript" src="myStopwatch.js"></script>
+  </body>
+</html>

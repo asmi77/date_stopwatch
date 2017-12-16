@@ -1,0 +1,77 @@
+/* General Css */
+body {
+  padding: 0;
+  font-family: sans-serif;
+  color: #333;
+  font-weight: 300;
+  border-radius: 15px;
+}
+
+/* Date Time Css */
+.top {
+  text-align: center;
+  padding: 50px 0;
+}
+#date {
+  font-size: 30px;
+}
+#time {
+  font-size: 60px;
+  padding-top: 30px;
+}
+/* Timer CSS */
+.content {
+  text-align: center;
+}
+.stopwatch {
+  display: inline-block;
+  min-width: 512px;
+  min-height: 50%;
+  border: 3px solid rgba(0,0,0,0.03);
+  border-radius: 10px;
+  padding-top: 30px;
+}
+#timer {
+  font-size: 50px;
+  font-weight: 700;
+  color: #444;
+  width: 100%;
+  padding-bottom: 15px;
+  margin-bottom: 30px;
+  border-bottom: 3px solid rgba(0,0,0,0.03);
+}
+#laps {
+  margin-top: 30px;
+  padding: 0;
+}
+#laps li {
+  list-style-type: none;
+  font-size: 30px;
+  color: rgba(0,0,0,0.7);
+}
+#laps li i {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgba(0,0,0,0.5);
+}
+
+button {
+  color: white;
+  background-color: #9575CD;
+  padding: 10px 20px;
+  border: 1px solid #9575CD;
+  border-radius: 22px;
+  outline: 0;
+  cursor: pointer;
+
+  -webkit-transition: border-color 0.4s ease, color 0.4s ease, background-color 0.4s ease;
+  -moz-transition: border-color 0.4s ease, color 0.4s ease, background-color 0.4s ease;
+  -o-transition: border-color 0.4s ease, color 0.4s ease, background-color 0.4s ease;
+  -ms-transition: border-color 0.4s ease, color 0.4s ease, background-color 0.4s ease;
+  transition: border-color 0.4s ease, color 0.4s ease, background-color 0.4s ease;
+}
+
+button:hover {
+  background-color: #65499c;
+}
